@@ -1,11 +1,11 @@
 repo_name: sjmatta/notifypoc
-report_id: 7ac1266a62215233ce36a77e3d6f297e
+report_id: 0055a6b8755e894ed5eaf98cfd63cb3b
 repo_type: Public
-timestamp: '2023-11-09T15:50:14+00:00'
-requested_by: renovate[bot]
+timestamp: '2023-12-14T09:37:12+00:00'
+requested_by: stacksharebot
 provider: github
 branch: main
-detected_tools_count: 5
+detected_tools_count: 8
 tools:
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -60,3 +60,37 @@ tools:
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
   detection_source: src/main/resources/application.properties
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
+  last_updated_by: Stephen Matta
+  last_updated_on: 2022-11-22 20:47:48.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
+  last_updated_by: Stephen Matta
+  last_updated_on: 2022-11-22 20:47:48.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
+  last_updated_by: Stephen Matta
+  last_updated_on: 2022-11-22 20:47:48.000000000 Z
